@@ -1,0 +1,328 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Source Sans Pro;
+
+}
+
+
+.image-logo {
+    width: 10%;
+   
+}
+
+header {
+    background-image: url(image/Object.png);
+    height: 1093px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+
+
+
+ 
+ul { 
+   display: flex; 
+   list-style: none;
+   gap: 1em;
+   }
+   
+
+   a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+   }
+
+   nav {
+display: flex;
+justify-content: space-around;
+/* gap: 15em; */
+align-items: center;
+padding: 1.5em;
+
+}
+
+.section1 {
+    text-align: center;
+    margin-top: 15em;
+}
+
+h1 {
+    font-size: 120px;
+    color: white;
+    margin-top: 0.5em;
+
+    /* border: solid 2px red; */
+}
+
+#first-banner {
+    display: flex;
+justify-content: center;    
+gap: 2em;
+font-size: 16px;
+margin-top: 0.5em;
+font-weight: bold;
+}
+
+button{ 
+    border: none;
+    padding: 1em;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2em 0 10em 0;
+
+}
+
+#learn {
+    font-size: 32px;
+
+}
+
+strong {
+    color: blueviolet;
+    margin-right: 0.2em;
+}
+
+.lighter {
+    font-weight: lighter;
+    
+}
+
+#bruce {
+border-radius: 50em;
+}
+
+#all {
+  /* margin-top: 5em; */
+  margin-bottom: 2em;
+
+}
+
+.heroe{
+    display: flex;
+    justify-content: center;
+     justify-content: space-around;
+    margin-inline: 5em;
+    /* gap: 10em; */
+    margin-top: 5em;
+
+  
+}
+
+
+h3 {
+    /* color: white; */
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0.5em;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 5em;
+    
+
+}
+
+
+h2 {
+    align-items: center;
+}
+
+.section2 {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0 3em 0;
+    gap: 2em;
+    color: white;
+font-size: 22px;
+}
+
+
+#theguyinred {
+    width: 7em;
+}
+
+blockquote {
+    width: 33em;
+    
+}
+
+#name{
+   margin: .5em .5em;
+
+}
+#weather {
+    font-style: italic;
+}
+
+.heroe1 {
+   margin: 5em;
+
+}
+
+#popular {
+    display: flex;
+    justify-content: space-around;
+     justify-content: center;
+    gap: .5em;
+    font-size: 33px;
+    font-weight: lighter;
+    margin-bottom: 2em;
+}
+
+.smile {
+    display: flex;
+    gap: 2em;
+
+}
+
+.phillip {
+    width: 20%;
+}
+
+
+
+.phillip-edit { 
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+    font-weight: 700;
+    gap: .5em;
+    margin-block: 1em;
+
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-inline: 3em; */
+    padding-right: 4em;
+    color: blueviolet;
+
+}
+
+.heroe2 {
+     background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#popular1 {
+    /* display: flex;
+    justify-content: space-around;
+     justify-content: center; */
+    /* gap: .5em; */
+    font-size: 33px;
+    font-weight: lighter;
+    padding: 3em;
+    text-align: center;
+
+}
+
+#smile1 {
+    display: flex;
+    margin-bottom: 5em;
+
+
+}
+
+.break {
+    padding-inline: 3em;
+
+}
+
+#button1{ 
+    margin: 2em 0 5em 0;
+
+}
+
+h2 {
+font-size: 60px;
+font-weight: lighter;
+color: black;
+text-align: center;
+margin-block: 1em;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.writeup {
+margin: 1em 7em 2em 3em ;
+}
+
+footer {
+    background-color: black;
+    padding: 4em;
+    color: white;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    gap: 60%;
+
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 2em;
+    color: grey;
+    font-size: 12px;
+
+}
+
+#play1 {
+background-image: url(image/9.png);
+padding: 2.5em 0 4em 0;
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+
+#play2 {
+background-image: url(image/7.png);
+padding: 2.5em 0 4em 0;
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+
+#play3 {
+background-image: url(image/8.png);
+padding: 2.5em 0 4em 0;
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+
+#play4 {
+background-image: url(image/6.png);
+padding: 2.5em 0 4em 0;
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+
